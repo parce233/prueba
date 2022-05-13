@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root{
+	--color-circulo:#55bc69;
+	--color-texto:#888;
+	--color-titulos:#444;
+	--color-footer:#6c6c6c;
+	--color-footerbg:#191919;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+h1,h2{
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-titulos);
+}
+header{
+    background-color: transparent;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #525252;
+}
+.section{
+	padding:10% 0;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+
+}
+
+#hero{
+	background-image: url("../img/bg-hero.jpg" );
+	background-position: top center;
+	background-size: cover;
+}
+#hero h4{
+	font-size: 25px;
+	font-weight: 300;
+	padding-bottom: 50px;
+
+}
+#hero h1{
+	font-size: 7.5em;
+	font-weight: 500;
+}
+
+#hero p{
+	font-size: 15px;
+
+}
+#hero h3{
+	font-size: 25px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	font-weight: 800;
+}
+#hero h1, #hero h4, #hero h3{
+	color: #fff;
+}
+
+.overlay{
+	padding: 10% 0;
+	height: 100vh;
+}
+
+.btn-warning{
+	border-radius: 0;
+	padding: 15px 20px !important;
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+
+.titulo{
+	font-size: 32px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.titulo::after{
+	content: '';
+	display: block;
+	border-bottom: 1px solid #55bc69;
+	width: 50px;
+	margin: 20px auto;
+}
+.subtitulo{
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 15px;
+}
+.subtitulos{
+	color: var(--color-titulos);
+	font-size: 15px;
+	margin-bottom: 15px;
+	font-weight: 800;
+	
+}
+
+#welcome i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	border: 1px solid #ddd;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	background-color: var(--color-circulo);
+}
+
+#welcome p{
+	font-size: 10px;
+}
+
+
+
+footer{
+	background-color:var(--color-footerbg) ;
+	padding: 30px 0;
+	text-align: center;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
